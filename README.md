@@ -15,9 +15,10 @@ A responsive photo gallery app built with React, featuring infinite scrolling an
 ## Installation and Running the Project Locally
 
 1. Clone the repository: `git clone https://github.com/Half-blood-prince-2710/infinite-scroll.git`
-2. Install dependencies: `npm install` or `bun install`
-3. Start the development server: `npm run dev` or `bun dev`
-4. Open your browser at `http://localhost:5173` or `your_deployment_server` to view the app
+2. Move Into Folder: `cd infinite-scroll`
+3. Install dependencies: `npm install` or `bun install`
+4. Start the development server: `npm run dev` or `bun dev`
+5. Open your browser at `http://localhost:5173` or `your_deployment_server` to view the app
 
 ## Technologies Used
 
