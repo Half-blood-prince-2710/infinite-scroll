@@ -22,7 +22,7 @@ export const useGetPhotos = (
       lastPage,
       pages
     ) => {
-      console.log(lastPage, pages);
+      // console.log(lastPage, pages);
       const nextPage = pages.length + 1;
       return nextPage; 
     },
