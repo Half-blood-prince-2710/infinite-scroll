@@ -21,9 +21,9 @@ class PhotosAPI {
   }
 
   async getPhotos({ pageParam = 1 }) {
-    console.log("entergetphoto",pageParam);
+
     const url = this._createUrl('photos/', { page: pageParam });
-    console.log('url',url)
+    // console.log('url',url)
     return this._fetchData(url);
   }
 }
