@@ -7,7 +7,7 @@ export const useScrollDetection = () => {
       setIsNearBottom,
     ] = useState(false);
     const handleScroll = () => {
-        const bottom = window.scrollY + window.innerHeight >= window.document.documentElement.scrollHeight ;
+        const bottom = window.scrollY + window.innerHeight >= window.document.documentElement.scrollHeight -1 ;
         if (bottom) setIsNearBottom(true);
         else setIsNearBottom(false)
     }
