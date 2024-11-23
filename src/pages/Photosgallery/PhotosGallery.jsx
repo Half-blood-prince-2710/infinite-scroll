@@ -33,7 +33,7 @@ const PhotosGallery = () => {
 
   // Debounce the search query
   const debouncedSearchQuery =
-    useDebounce(searchQuery, 300); // 300ms debounce
+    useDebounce(searchQuery, 500); // 500ms debounce
 
   useEffect(() => {
     if (isNearBottom && hasNextPage)
@@ -52,7 +52,7 @@ const PhotosGallery = () => {
 
   if (isLoading)
     return (
-      <div className='flex justify-center items-center'>
+      <div className='spinner-first'>
         <Spinner />
       </div>
     );
